@@ -555,6 +555,6 @@ function fastifyMultipart (fastify, options, done) {
 }
 
 module.exports = fp(fastifyMultipart, {
-  fastify: '>= 0.39.0',
+  fastify: '>=4.0.0-alpha.1',
   name: 'fastify-multipart'
 })
